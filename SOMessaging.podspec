@@ -12,5 +12,5 @@ This is a simple library to easily create a messaging app with smooth animations
   s.author       	= { "Artur Mkrtchyan" => "mkrtarturdev@gmail.com" }
   s.source_files 	= 'SOMessaging/*'
   s.requires_arc 	= true
-  s.ios.frameworks 	= 'MediaPlayer', 'QuartzCores'
+  s.ios.frameworks 	= 'MediaPlayer', 'QuartzCore'
 end
