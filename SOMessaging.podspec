@@ -1,20 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "SOMessaging"
   s.version      = "1.0.0"
-  s.summary      = "Messaging library for iOS 7.x by arturdev .s"
+  s.summary      = "Messaging library for iOS 7.x by arturdev"
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/acido/SOMessaging", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/arturdev/SOMessaging", :tag => "1.0.0" }
   s.description  = <<-DESC
-                     This is a simple library to create sliding menus that can be used in storyboards and support static cells.
-
-With this library you can create 3 types of sliding menus: 
-1. Slide menu with right menu only. 
-2. Slide menu with left menu only. 
-3. Slide menu with both left and right menus. 
-
-This repo contains project that demonstrate usage of AMSlideMenu .
-This project created in Xcode 5 , so this library is fully compatible with iOS 7.
-Works for both iPhone and iPad.
+This is a simple library to easily create a messaging app with smooth animations.
                     DESC
   s.homepage     = "https://github.com/arturdev/SOMessaging"
   s.license      = 'MIT'
